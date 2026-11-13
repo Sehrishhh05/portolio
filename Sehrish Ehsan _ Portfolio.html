@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sehrish Ehsan | Software Engineering Student & Aspiring Developer</title>
+<meta name="description" content="Explore the portfolio of Sehrish Ehsan, a Software Engineering student at Air University interested in Cyber Security, technology, software development, and creative digital experiences.">
+<meta property="og:title" content="Sehrish Ehsan | Software Engineering Student & Aspiring Developer">
+<meta property="og:description" content="Software Engineering student at Air University exploring Cyber Security and creative software.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%234F8CFF'/%3E%3Ctext x='32' y='42' font-size='28' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'%3ESE%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#080B14;--bg2:#101626;--card:#141D30;--a1:#4F8CFF;--a2:#9B6BFF;--tx:#F8FAFC;--mut:#A1AEC0;--bd:#27344A;--glass:rgba(20,29,48,.7);--shadow:0 12px 40px rgba(0,0,0,.35);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root[data-theme="light"]{--bg:#F6F8FC;--bg2:#EAEFF8;--card:#FFFFFF;--tx:#0E1424;--mut:#4A5670;--bd:#D3DBEA;--glass:rgba(255,255,255,.8);--shadow:0 12px 40px rgba(30,50,90,.12)}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px))}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:400 16px/1.7 Inter,system-ui,sans-serif;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:60}
+h1,h2,h3{font-family:'Space Grotesk',Inter,sans-serif;line-height:1.1;margin:0}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--a1);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+section{padding:96px 0}
+.alt{background:var(--bg2)}
+h2{font-size:clamp(2rem,5vw,3.2rem);max-width:16ch;margin-bottom:14px}
+.lead{color:var(--mut);max-width:60ch;margin:0 0 40px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:999px;border:1px solid var(--bd);background:transparent;color:var(--tx);font:600 15px Inter,sans-serif;text-decoration:none;cursor:pointer;transition:transform .2s,box-shadow .2s,border-color .2s}
+.btn:hover{transform:translateY(-2px);border-color:var(--a1)}
+.btn.p{background:linear-gradient(120deg,var(--a1),var(--a2));border:0;color:#fff}
+.btn.p:hover{box-shadow:0 8px 28px rgba(79,140,255,.4)}
+.btn[aria-disabled=true]{opacity:.45;pointer-events:none}
+/* nav */
+nav{position:fixed;top:env(safe-area-inset-top,0px);left:0;right:0;z-index:50;background:var(--glass);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--bd)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font:700 17px 'Space Grotesk',sans-serif}
+.logo{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;background:linear-gradient(135deg,var(--a1),var(--a2));color:#fff;font:700 14px 'Space Grotesk',sans-serif}
+.links{display:flex;gap:4px;align-items:center}
+.links a.l{padding:8px 12px;border-radius:8px;text-decoration:none;color:var(--mut);font-size:14px;font-weight:500;transition:color .2s,background .2s}
+.links a.l:hover,.links a.l.on{color:var(--tx);background:var(--card)}
+.links a.l.on{box-shadow:inset 0 -2px 0 var(--a1)}
+.ico{width:40px;height:40px;border-radius:10px;border:1px solid var(--bd);background:var(--card);color:var(--tx);cursor:pointer;display:grid;place-items:center;font-size:17px}
+#burger{display:none}
+@media(max-width:900px){#burger{display:grid}.links{position:fixed;top:calc(68px + env(safe-area-inset-top,0px));left:0;right:0;flex-direction:column;align-items:stretch;padding:14px 22px 22px;background:var(--bg2);border-bottom:1px solid var(--bd);display:none}.links.open{display:flex}.links a.l{padding:12px}.nav-cta{display:none}}
+/* hero */
+#home{min-height:100vh;display:flex;align-items:center;padding:130px 0 70px;position:relative;overflow:hidden}
+#home::before{content:"";position:absolute;width:640px;height:640px;right:-160px;top:-120px;background:radial-gradient(circle,rgba(79,140,255,.28),rgba(155,107,255,.14) 50%,transparent 70%);animation:drift 14s ease-in-out infinite alternate;pointer-events:none}
+@keyframes drift{to{transform:translate(-60px,50px)}}
+.hero{display:grid;grid-template-columns:1.25fr .75fr;gap:48px;align-items:center;position:relative}
+@media(max-width:860px){.hero{grid-template-columns:1fr}.photo{order:-1;max-width:280px}}
+.status{display:inline-flex;gap:8px;align-items:center;padding:6px 14px;border:1px solid var(--bd);border-radius:999px;background:var(--glass);font-size:13px;color:var(--mut);margin-bottom:22px}
+.dot{width:8px;height:8px;border-radius:50%;background:#34d399}
+h1{font-size:clamp(2.6rem,8vw,5.4rem);letter-spacing:-.03em;margin-bottom:18px}
+.sub{font:500 clamp(1.1rem,2.6vw,1.5rem) 'Space Grotesk',sans-serif;background:linear-gradient(120deg,var(--a1),var(--a2));-webkit-background-clip:text;background-clip:text;color:transparent;margin:0 0 18px}
+.intro{color:var(--mut);max-width:56ch;margin:0 0 30px}
+.row{display:flex;flex-wrap:wrap;gap:12px}
+.soc{display:flex;gap:10px;margin-top:28px;flex-wrap:wrap}
+.soc a{padding:8px 14px;border:1px solid var(--bd);border-radius:999px;font-size:13px;color:var(--mut);text-decoration:none;transition:.2s}
+.soc a:hover{color:var(--tx);border-color:var(--a1)}
+.photo{position:relative;aspect-ratio:4/5;width:100%;border-radius:28px;padding:3px;background:linear-gradient(150deg,var(--a1),var(--a2));box-shadow:0 0 70px rgba(79,140,255,.25)}
+.photo>div{width:100%;height:100%;border-radius:25px;background:var(--card);overflow:hidden;display:grid;place-items:center}
+.photo img{width:100%;height:100%;object-fit:cover}
+.ph{font:700 64px 'Space Grotesk',sans-serif;color:var(--mut)}
+.chip{position:absolute;padding:6px 12px;border-radius:10px;background:var(--glass);border:1px solid var(--bd);font:600 13px 'Space Grotesk',monospace;backdrop-filter:blur(8px);animation:fl 5s ease-in-out infinite alternate}
+.chip.c1{top:10%;left:-14px}.chip.c2{bottom:14%;right:-12px;animation-delay:1.5s}.chip.c3{bottom:-12px;left:20%;animation-delay:3s}
+@keyframes fl{to{transform:translateY(-10px)}}
+/* load sequence: the one orchestrated moment */
+.in{opacity:0;transform:translateY(18px);animation:up .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes up{to{opacity:1;transform:none}}
+/* cards */
+.grid{display:grid;gap:18px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.g3{grid-template-columns:repeat(auto-fill,minmax(290px,1fr))}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:18px;padding:24px;box-shadow:var(--shadow);transition:transform .25s,border-color .25s}
+.card:hover{transform:translateY(-4px);border-color:var(--a1)}
+.card h3{font-size:1.15rem;margin-bottom:8px}
+.card p{margin:0;color:var(--mut);font-size:15px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+@media(max-width:860px){.about{grid-template-columns:1fr}}
+.about p{color:var(--mut);margin:0 0 16px}
+.hl{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:22px}
+.hl div{padding:16px;border:1px solid var(--bd);border-radius:14px;background:var(--card);font-size:14px;color:var(--mut)}
+.hl b{display:block;color:var(--tx);font-family:'Space Grotesk',sans-serif;font-size:15px}
+.tl{position:relative;padding-left:30px;border-left:2px solid var(--bd);max-width:720px}
+.tl::before{content:"";position:absolute;left:-7px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--a1);box-shadow:0 0 0 5px rgba(79,140,255,.2)}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.tag{padding:4px 12px;border-radius:999px;border:1px solid var(--bd);font-size:13px;color:var(--mut)}
+.meta{color:var(--a1);font-weight:600;font-size:14px;margin:6px 0}
+.skill h3{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.skill small{font:500 12px Inter;color:var(--mut)}
+.sk{padding:7px 14px;border-radius:10px;background:var(--bg2);border:1px solid var(--bd);font-size:14px;transition:.2s}
+.sk:hover{border-color:var(--a2);transform:translateY(-2px)}
+/* projects */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}
+.f{padding:8px 16px;border-radius:999px;border:1px solid var(--bd);background:transparent;color:var(--mut);cursor:pointer;font:500 14px Inter}
+.f[aria-pressed=true]{background:linear-gradient(120deg,var(--a1),var(--a2));color:#fff;border-color:transparent}
+.pc{padding:0;overflow:hidden;cursor:pointer;text-align:left;font:inherit;color:inherit;width:100%}
+.thumb{aspect-ratio:16/9;background:repeating-linear-gradient(135deg,var(--bg2) 0 14px,var(--card) 14px 28px);display:grid;place-items:center;color:var(--mut);font-size:13px;border-bottom:1px solid var(--bd)}
+.pc .b{padding:22px}
+.empty{padding:40px;text-align:center;border:1px dashed var(--bd);border-radius:18px;color:var(--mut)}
+dialog{border:1px solid var(--bd);border-radius:22px;background:var(--card);color:var(--tx);max-width:560px;width:calc(100% - 32px);padding:30px;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+dialog::backdrop{background:rgba(4,6,12,.7);backdrop-filter:blur(4px)}
+dialog[open]{animation:pop .25s ease}
+@keyframes pop{from{opacity:0;transform:scale(.96) translateY(10px)}}
+dialog h3{font-size:1.6rem;margin-bottom:6px}
+dialog p{color:var(--mut)}
+.x{float:right}
+/* interests */
+.int .em{font-size:30px;margin-bottom:12px;display:block}
+/* contact */
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+@media(max-width:860px){.contact{grid-template-columns:1fr}}
+form{display:grid;gap:16px}
+label{font-size:14px;font-weight:500;display:grid;gap:6px}
+input,textarea{width:100%;padding:13px 14px;border-radius:12px;border:1px solid var(--bd);background:var(--card);color:var(--tx);font:inherit}
+input:focus,textarea:focus{outline:2px solid var(--a1);outline-offset:1px}
+input[aria-invalid=true],textarea[aria-invalid=true]{border-color:#f87171}
+.err{color:#f87171;font-size:13px;min-height:0}
+#msg{padding:12px 14px;border-radius:12px;font-size:14px;display:none}
+#msg.ok{display:block;background:rgba(52,211,153,.12);color:#34d399}
+#msg.bad{display:block;background:rgba(248,113,113,.12);color:#f87171}
+.hp{position:absolute;left:-9999px;opacity:0}
+.ci{display:grid;gap:12px;margin-top:20px}
+.ci a{padding:14px 16px;border:1px solid var(--bd);border-radius:14px;background:var(--card);text-decoration:none;font-size:15px}
+.ci a:hover{border-color:var(--a1)}
+.ci span{display:block;font-size:12px;color:var(--mut)}
+footer{padding:50px 0 34px;border-top:1px solid var(--bd)}
+.ft{display:flex;justify-content:space-between;gap:28px;flex-wrap:wrap;align-items:flex-start}
+.ft p{color:var(--mut);margin:10px 0 0;max-width:34ch;font-size:14px}
+.fl{display:flex;gap:16px;flex-wrap:wrap}
+.fl a{color:var(--mut);text-decoration:none;font-size:14px}
+.fl a:hover{color:var(--tx)}
+.copy{margin-top:30px;color:var(--mut);font-size:13px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.in{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<nav aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="#home"><span class="logo">SE</span><span>Sehrish Ehsan</span></a>
+    <div class="links" id="links"></div>
+    <div class="row" style="flex-wrap:nowrap">
+      <button class="ico" id="theme" aria-label="Switch to light mode" type="button">☾</button>
+      <a class="btn p nav-cta" href="#contact">Let’s Connect</a>
+      <button class="ico" id="burger" aria-label="Open menu" aria-expanded="false" type="button">☰</button>
+    </div>
+  </div>
+</nav>
+
+<main>
+<section id="home">
+  <div class="wrap hero">
+    <div>
+      <div class="status in" id="status" style="animation-delay:.05s"><span class="dot"></span><span id="statusText"></span></div>
+      <h1 class="in" style="animation-delay:.15s">Hello, I’m Sehrish Ehsan.</h1>
+      <p class="sub in" style="animation-delay:.3s">Exploring Technology. Building Ideas. Creating Impact.</p>
+      <p class="intro in" style="animation-delay:.45s">I’m a Software Engineering student at Air University with a growing passion for technology, software development, and Cyber Security. I enjoy exploring new ideas, developing my skills, and transforming creativity into meaningful digital experiences.</p>
+      <div class="row in" style="animation-delay:.6s">
+        <a class="btn p" href="#projects">Explore My Work</a>
+        <a class="btn" href="#contact">Get In Touch</a>
+        <a class="btn" id="cv" href="#contact">Download My CV</a>
+      </div>
+      <div class="soc in" id="heroSoc" style="animation-delay:.75s"></div>
+    </div>
+    <div class="photo in" style="animation-delay:.4s">
+      <div id="photoBox"><span class="ph">SE</span></div>
+      <span class="chip c1" aria-hidden="true">&lt;/&gt;</span>
+      <span class="chip c2" aria-hidden="true">{ sec }</span>
+      <span class="chip c3" aria-hidden="true">git push</span>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="alt">
+  <div class="wrap about">
+    <div>
+      <h2>More Than Just a Student.</h2>
+      <p>I’m Sehrish Ehsan, a Software Engineering student at Air University. My journey into technology is driven by curiosity, creativity, and the desire to understand how digital experiences are built.</p>
+      <p>I’m particularly interested in Cyber Security and software development. I enjoy learning new technologies, experimenting with creative ideas, and developing the skills needed to solve real-world problems.</p>
+      <p>Beyond technology, I love traveling, photography, cooking, and video editing. These interests allow me to explore creativity from different perspectives.</p>
+    </div>
+    <div>
+      <div class="grid g2" id="aboutInt"></div>
+      <div class="hl">
+        <div><b>Air University</b>BS Software Engineering</div>
+        <div><b>3rd Semester</b>Currently studying</div>
+        <div><b>Primary focus</b>Cyber Security</div>
+        <div><b>Always</b>Learning something new</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <h2>Where I’m Learning.</h2>
+    <p class="lead">My academic path in software engineering.</p>
+    <div class="tl card" id="edu"></div>
+  </div>
+</section>
+
+<section id="skills" class="alt">
+  <div class="wrap">
+    <h2>Skills I’m Growing.</h2>
+    <p class="lead">Grouped by area. Listed skills reflect what I’m learning and using, not mastery levels.</p>
+    <div class="grid g3" id="skillGrid"></div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <h2>Things I’ve Been Building.</h2>
+    <p class="lead">Editable project slots. Open any card for details.</p>
+    <div class="filters" id="filters" role="group" aria-label="Filter projects"></div>
+    <div class="grid g3" id="projGrid"></div>
+  </div>
+</section>
+
+<section id="interests" class="alt">
+  <div class="wrap">
+    <h2>Beyond the Screen.</h2>
+    <p class="lead">The things that keep me curious away from the keyboard.</p>
+    <div class="grid g2 int" id="intGrid"></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap contact">
+    <div>
+      <h2>Let’s Create Something Meaningful.</h2>
+      <p class="lead" style="margin-bottom:0">Have an opportunity, project idea, collaboration, or simply want to connect? I’d love to hear from you.</p>
+      <div class="ci" id="ci"></div>
+    </div>
+    <form id="form" novalidate>
+      <label>Full Name<input name="name" autocomplete="name" required><span class="err" data-for="name"></span></label>
+      <label>Email Address<input name="email" type="email" autocomplete="email" required><span class="err" data-for="email"></span></label>
+      <label>Subject<input name="subject" required><span class="err" data-for="subject"></span></label>
+      <label>Message<textarea name="message" rows="5" required></textarea><span class="err" data-for="message"></span></label>
+      <input class="hp" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn p" id="send" type="submit">Send message</button>
+      <div id="msg" role="status" aria-live="polite"></div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="ft">
+      <div>
+        <a class="brand" href="#home"><span class="logo">SE</span><span>Sehrish Ehsan</span></a>
+        <p>Curiosity fuels creativity. Technology makes it possible.</p>
+      </div>
+      <div class="fl" id="fnav"></div>
+      <div class="fl" id="fsoc"></div>
+    </div>
+    <div class="copy"><span>© <span id="yr"></span> Sehrish Ehsan. All rights reserved.</span><a class="btn" href="#home">Back to top</a></div>
+  </div>
+</footer>
+
+<dialog id="modal" aria-labelledby="mt"></dialog>
+
+<script>
+/* =====================================================
+   EDIT YOUR CONTENT HERE. Everything on the site reads from CONFIG.
+   ===================================================== */
+const CONFIG = {
+  photo: "",                       // Profile photo: paste an image URL or a data: URI. Empty shows the SE monogram.
+  cv: "",                          // CV link (PDF URL). Empty makes the CV button jump to the contact form.
+  status: "Open to learning opportunities and collaborations", // Set to "" to hide the badge.
+  email: "",                       // e.g. "you@example.com"
+  social: { GitHub: "", LinkedIn: "", Instagram: "" }, // Add full URLs. Empty ones are hidden.
+  // Contact form: create a free form at https://formspree.io, then paste the endpoint
+  // (https://formspree.io/f/xxxxxxx). Until then the form reports that it is not connected.
+  formEndpoint: "",
+  education: { degree: "Bachelor of Science in Software Engineering", school: "Air University", status: "3rd Semester",
+    years: "Start year – Expected graduation (edit me)", interests: ["Cyber Security","Software Development","Web Development","Technology & Innovation"] },
+  skills: [
+    { cat: "Programming Languages", note: "learning", items: ["Python"] },
+    { cat: "Web Development", note: "learning", items: ["HTML","CSS","JavaScript"] },
+    { cat: "Software Engineering", note: "studying", items: ["Add your skills"] },
+    { cat: "Cyber Security", note: "primary interest", items: ["Add your skills"] },
+    { cat: "Creative Skills", note: "hobby", items: ["Photography","Video Editing"] },
+    { cat: "Soft Skills", note: "", items: ["Problem Solving","Curiosity"] }
+  ],
+  // Projects: add github / demo URLs (real ones only). Empty URLs disable that button.
+  projects: [
+    { title:"Personal Portfolio Website", cat:"Web", desc:"This portfolio: a responsive personal site built to showcase my journey.", stack:["HTML","CSS","JavaScript"], github:"", demo:"" },
+    { title:"Web Development Project", cat:"Web", desc:"Placeholder slot. Describe a web project you have built.", stack:["Add stack"], github:"", demo:"" },
+    { title:"Academic Software Engineering Project", cat:"Academic", desc:"Placeholder slot. Describe a university project and your role.", stack:["Add stack"], github:"", demo:"" },
+    { title:"Data Structures & Algorithms Project", cat:"Academic", desc:"Placeholder slot. Describe a DSA project or implementation.", stack:["Add stack"], github:"", demo:"" },
+    { title:"Creative Digital Project", cat:"Creative", desc:"Placeholder slot. A photography, video, or design project.", stack:["Add tools"], github:"", demo:"" }
+  ],
+  interests: [
+    { icon:"📷", t:"Photography", d:"Capturing moments and exploring visual storytelling." },
+    { icon:"✈️", t:"Traveling", d:"Discovering new places, cultures, and experiences." },
+    { icon:"🍳", t:"Cooking", d:"Exploring creativity through flavors and experimentation." },
+    { icon:"🎬", t:"Video Editing", d:"Turning ideas and moments into engaging visual stories." }
+  ]
+};
+
+const $ = (s, r=document) => r.querySelector(s);
+const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.textContent = html; return e; };
+const NAV = ["Home","About","Education","Skills","Projects","Interests","Contact"];
+
+/* nav */
+const links = $("#links");
+NAV.forEach(n => { const a = el("a","l",n); a.href = "#" + n.toLowerCase(); links.append(a); const f = el("a",null,n); f.href = a.href; $("#fnav").append(f); });
+const burger = $("#burger");
+const setMenu = o => { links.classList.toggle("open", o); burger.setAttribute("aria-expanded", o); burger.textContent = o ? "✕" : "☰"; };
+burger.onclick = () => setMenu(!links.classList.contains("open"));
+links.addEventListener("click", e => { if (e.target.closest("a")) setMenu(false); });
+document.addEventListener("keydown", e => { if (e.key === "Escape") setMenu(false); });
+const secs = [...document.querySelectorAll("main section")];
+const spy = new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting) links.querySelectorAll("a.l").forEach(a => a.classList.toggle("on", a.hash === "#" + en.target.id)); }), { rootMargin:"-45% 0px -50% 0px" });
+secs.forEach(s => spy.observe(s));
+
+/* theme */
+const root = document.documentElement;
+function setTheme(t){ root.dataset.theme = t; $("#theme").textContent = t === "light" ? "☀" : "☾"; $("#theme").setAttribute("aria-label", t === "light" ? "Switch to dark mode" : "Switch to light mode"); }
+let saved = null; try { saved = localStorage.getItem("se-theme"); } catch(e){}
+setTheme(saved === "light" ? "light" : "dark");
+$("#theme").onclick = () => { const t = root.dataset.theme === "light" ? "dark" : "light"; setTheme(t); try { localStorage.setItem("se-theme", t); } catch(e){} };
+
+/* hero */
+if (CONFIG.status) $("#statusText").textContent = CONFIG.status; else $("#status").remove();
+if (CONFIG.photo) { const i = new Image(); i.src = CONFIG.photo; i.alt = "Portrait of Sehrish Ehsan"; i.width = 480; i.height = 600; $("#photoBox").replaceChildren(i); }
+if (CONFIG.cv) { const c = $("#cv"); c.href = CONFIG.cv; c.target = "_blank"; c.rel = "noopener"; c.setAttribute("download",""); }
+else { $("#cv").onclick = e => { e.preventDefault(); alert("The CV isn’t uploaded yet. Set CONFIG.cv in the page source, or use the contact form to request it."); }; }
+Object.entries(CONFIG.social).filter(([,u]) => u).forEach(([n,u]) => {
+  [$("#heroSoc"), $("#fsoc")].forEach(box => { const a = el("a",null,n); a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer"; box.append(a); });
+});
+
+/* about + interests */
+CONFIG.interests.forEach(i => {
+  const c = el("div","card int"); const s = el("span","em",i.icon); s.setAttribute("aria-hidden","true");
+  c.append(s, el("h3",null,i.t), el("p",null,i.d)); $("#intGrid").append(c);
+});
+["Cyber Security","Software Development","Technology & Innovation","Creative Digital Experiences"].forEach(t => { const c = el("div","card"); c.style.padding = "16px"; c.append(el("h3",null,t)); c.firstChild.style.margin = "0"; c.firstChild.style.fontSize = "1rem"; $("#aboutInt").append(c); });
+
+/* education */
+const E = CONFIG.education;
+$("#edu").append(el("h3",null,E.school), el("p","meta",E.degree), el("p",null,"Status: " + E.status + " · " + E.years));
+const et = el("div","tags"); E.interests.forEach(x => et.append(el("span","tag",x))); $("#edu").append(et);
+
+/* skills */
+CONFIG.skills.forEach(g => {
+  const c = el("div","card skill"), h = el("h3",null,g.cat); if (g.note) h.append(el("small",null,g.note));
+  const t = el("div","tags"); g.items.forEach(i => t.append(el("span","sk",i))); c.append(h,t); $("#skillGrid").append(c);
+});
+
+/* projects */
+let active = "All";
+const cats = ["All", ...new Set(CONFIG.projects.map(p => p.cat))];
+function renderProjects(){
+  const f = $("#filters"); f.replaceChildren();
+  cats.forEach(c => { const b = el("button","f",c); b.type = "button"; b.setAttribute("aria-pressed", c === active); b.onclick = () => { active = c; renderProjects(); }; f.append(b); });
+  const g = $("#projGrid"); g.replaceChildren();
+  const list = CONFIG.projects.filter(p => active === "All" || p.cat === active);
+  if (!list.length) { g.append(el("div","empty","No projects in this category yet. Add one in CONFIG.projects.")); return; }
+  list.forEach(p => {
+    const b = el("button","card pc"); b.type = "button"; b.setAttribute("aria-label","View project: " + p.title);
+    const th = el("div","thumb","Screenshot placeholder"); const body = el("div","b");
+    const tg = el("div","tags"); tg.append(el("span","tag",p.cat)); p.stack.forEach(s => tg.append(el("span","tag",s)));
+    body.append(el("h3",null,p.title), el("p",null,p.desc), tg); b.append(th, body);
+    b.onclick = () => openProject(p); g.append(b);
+  });
+}
+const modal = $("#modal");
+function openProject(p){
+  modal.replaceChildren();
+  const x = el("button","ico x","✕"); x.type = "button"; x.setAttribute("aria-label","Close"); x.onclick = () => modal.close();
+  const h = el("h3",null,p.title); h.id = "mt";
+  const tg = el("div","tags"); p.stack.forEach(s => tg.append(el("span","tag",s)));
+  const row = el("div","row"); row.style.marginTop = "22px";
+  [["View on GitHub", p.github, "p"],["Live demo", p.demo, ""]].forEach(([l,u,c]) => {
+    const a = el("a","btn " + c, l);
+    if (u) { a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer"; } else { a.setAttribute("aria-disabled","true"); a.title = "Link not added yet"; }
+    row.append(a);
+  });
+  modal.append(x, el("p","meta",p.cat), h, el("p",null,p.desc), tg, row); modal.showModal();
+}
+modal.addEventListener("click", e => { if (e.target === modal) modal.close(); });
+renderProjects();
+
+/* contact info */
+const ci = $("#ci");
+const addCI = (l, t, h, ext) => { const a = el("a"); a.append(el("span",null,l), document.createTextNode(t)); a.href = h; if (ext) { a.target = "_blank"; a.rel = "noopener noreferrer"; } ci.append(a); };
+if (CONFIG.email) addCI("Email", CONFIG.email, "mailto:" + CONFIG.email);
+Object.entries(CONFIG.social).filter(([,u]) => u).forEach(([n,u]) => addCI(n, u.replace(/^https?:\/\//,""), u, true));
+if (!ci.children.length) ci.append(el("p",null,"Contact details will appear here once added in CONFIG."));
+
+/* form */
+const form = $("#form"), msg = $("#msg"), send = $("#send");
+const rules = { name: v => v.trim().length >= 2 || "Enter your full name.", email: v => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim()) || "Enter a valid email address, like name@example.com.", subject: v => v.trim().length >= 3 || "Enter a subject.", message: v => v.trim().length >= 10 || "Write at least 10 characters." };
+function validate(){ let ok = true; for (const k in rules) { const inp = form.elements[k], r = rules[k](inp.value), bad = r !== true; inp.setAttribute("aria-invalid", bad); $('[data-for="' + k + '"]').textContent = bad ? r : ""; if (bad && ok) { inp.focus(); } ok = ok && !bad; } return ok; }
+form.addEventListener("submit", async e => {
+  e.preventDefault(); msg.className = ""; msg.textContent = "";
+  if (!validate()) return;
+  if (form.elements._gotcha.value) return;
+  if (!CONFIG.formEndpoint) { msg.className = "bad"; msg.textContent = "Message not sent: the form isn’t connected to a service yet. The site owner needs to add a form endpoint in CONFIG.formEndpoint."; return; }
+  send.disabled = true; send.textContent = "Sending…";
+  try {
+    const res = await fetch(CONFIG.formEndpoint, { method:"POST", headers:{ "Accept":"application/json","Content-Type":"application/json" }, body: JSON.stringify(Object.fromEntries(new FormData(form))) });
+    if (!res.ok) throw new Error(res.status);
+    msg.className = "ok"; msg.textContent = "Message sent. Thank you, I’ll reply soon."; form.reset();
+  } catch (err) { msg.className = "bad"; msg.textContent = "Message not sent. Check your connection and try again."; }
+  send.disabled = false; send.textContent = "Send message";
+});
+
+$("#yr").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
